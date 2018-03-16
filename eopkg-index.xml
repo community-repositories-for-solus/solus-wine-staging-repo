@@ -1,0 +1,186 @@
+<PISI>
+    <Package>
+        <Name>wine-32bit</Name>
+        <Summary xml:lang="en">32-bit libraries for wine</Summary>
+        <Description xml:lang="en">Wine (originally an acronym for &quot;Wine Is Not an Emulator&quot;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, &amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop. This is the wine staging build.</Description>
+        <PartOf>emul32</PartOf>
+        <License>LGPL-2.1</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="18">libx11-32bit</Dependency>
+            <Dependency releaseFrom="8">libtool-32bit</Dependency>
+            <Dependency releaseFrom="8">libgphoto2-32bit</Dependency>
+            <Dependency releaseFrom="13">mpg123-32bit</Dependency>
+            <Dependency releaseFrom="7">liblcms2-32bit</Dependency>
+            <Dependency releaseFrom="18">libxml2-32bit</Dependency>
+            <Dependency releaseFrom="29">pulseaudio-32bit</Dependency>
+            <Dependency releaseFrom="18">zlib-32bit</Dependency>
+            <Dependency releaseFrom="49">glibc-32bit</Dependency>
+            <Dependency releaseFrom="3">libglvnd-32bit</Dependency>
+            <Dependency releaseFrom="6">openal-soft-32bit</Dependency>
+            <Dependency releaseFrom="49">glibc</Dependency>
+            <Dependency releaseFrom="68">systemd-32bit</Dependency>
+            <Dependency releaseFrom="17">alsa-lib-32bit</Dependency>
+            <Dependency releaseFrom="9">libxext-32bit</Dependency>
+            <Dependency releaseFrom="16">libxcb-32bit</Dependency>
+            <Dependency releaseFrom="5">openldap-32bit</Dependency>
+            <Dependency release="1002">wine</Dependency>
+            <Dependency>freetype2-32bit</Dependency>
+            <Dependency>harfbuzz-32bit</Dependency>
+            <Dependency>libcap2-32bit</Dependency>
+            <Dependency>libgcrypt-32bit</Dependency>
+            <Dependency>libgnutls-32bit</Dependency>
+            <Dependency>libp11-kit-32bit</Dependency>
+            <Dependency>libpng-32bit</Dependency>
+            <Dependency>libtiff-32bit</Dependency>
+            <Dependency>libtxc_dxtn-32bit</Dependency>
+            <Dependency>ncurses-32bit</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1002">
+                <Date>2018-03-16</Date>
+                <Version>3.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>196261898</InstalledSize>
+        <PackageSize>25348306</PackageSize>
+        <PackageHash>07dec214a04c5e31c87cde2a8a543d081b8a6e75</PackageHash>
+        <PackageURI>wine-32bit-3.3-1002-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wine</Name>
+            <Packager>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>wine-devel</Name>
+        <Summary xml:lang="en">Development files for wine</Summary>
+        <Description xml:lang="en">Wine (originally an acronym for &quot;Wine Is Not an Emulator&quot;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, &amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop. This is the wine staging build.</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>LGPL-2.1</License>
+        <RuntimeDependencies>
+            <Dependency release="1002">wine</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1002">
+                <Date>2018-03-16</Date>
+                <Version>3.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>30680472</InstalledSize>
+        <PackageSize>3161855</PackageSize>
+        <PackageHash>5c0521b53cb898e81c479a8bce2425caa0a4a388</PackageHash>
+        <PackageURI>wine-devel-3.3-1002-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wine</Name>
+            <Packager>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>wine-32bit-devel</Name>
+        <Summary xml:lang="en">Development files for 32-bit wine</Summary>
+        <Description xml:lang="en">Wine (originally an acronym for &quot;Wine Is Not an Emulator&quot;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, &amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop. This is the wine staging build.</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>LGPL-2.1</License>
+        <RuntimeDependencies>
+            <Dependency release="1002">wine-32bit</Dependency>
+            <Dependency release="1002">wine-devel</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1002">
+                <Date>2018-03-16</Date>
+                <Version>3.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>12</InstalledSize>
+        <PackageSize>1446</PackageSize>
+        <PackageHash>faff5379275a0749b058d968a35544b04974cbb7</PackageHash>
+        <PackageURI>wine-32bit-devel-3.3-1002-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wine</Name>
+            <Packager>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>wine</Name>
+        <Summary xml:lang="en">Wine compatibility layer for Windows emulation.</Summary>
+        <Description xml:lang="en">Wine (originally an acronym for &quot;Wine Is Not an Emulator&quot;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, &amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop. This is the wine staging build.</Description>
+        <PartOf>virt</PartOf>
+        <License>LGPL-2.1</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="18">zlib</Dependency>
+            <Dependency releaseFrom="8">libgphoto2</Dependency>
+            <Dependency releaseFrom="18">libxml2</Dependency>
+            <Dependency releaseFrom="5">openldap</Dependency>
+            <Dependency releaseFrom="39">libgcc</Dependency>
+            <Dependency releaseFrom="16">libxcb</Dependency>
+            <Dependency releaseFrom="6">openal-soft</Dependency>
+            <Dependency releaseFrom="3">libglvnd</Dependency>
+            <Dependency releaseFrom="68">systemd</Dependency>
+            <Dependency releaseFrom="7">liblcms2</Dependency>
+            <Dependency releaseFrom="17">alsa-lib</Dependency>
+            <Dependency releaseFrom="49">glibc</Dependency>
+            <Dependency releaseFrom="18">libx11</Dependency>
+            <Dependency releaseFrom="29">pulseaudio</Dependency>
+            <Dependency releaseFrom="13">mpg123</Dependency>
+            <Dependency releaseFrom="8">libtool</Dependency>
+            <Dependency releaseFrom="9">libxext</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1002">
+                <Date>2018-03-16</Date>
+                <Version>3.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>217088250</InstalledSize>
+        <PackageSize>29334282</PackageSize>
+        <PackageHash>23bca715a3207036d5d1ee2d1cd73aa53f503773</PackageHash>
+        <PackageURI>wine-3.3-1002-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wine</Name>
+            <Packager>
+                <Name>Thanos Apostolou</Name>
+                <Email>thanosapostolou@outlook.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>
