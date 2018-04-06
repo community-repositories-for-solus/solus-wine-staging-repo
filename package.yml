@@ -1,10 +1,10 @@
 name       : wine
-version    : '3.4'
-release    : 1003
+version    : '3.5'
+release    : 1004
 source     :
-    - https://dl.winehq.org/wine/source/3.x/wine-3.4.tar.xz : a483247ac93f325d623a463438590b7355ec26c670af15d356b0ce6c46398e93
-    - https://github.com/wine-staging/wine-staging/archive/v3.4.tar.gz : c56f5d2706e228fe4f720e9301af30e82b4a7b6c1749d0b6170e60f1cb16fe34
-    - https://github.com/sarnex/wine-d3d9-patches/archive/wine-d3d9-3.4.tar.gz : 4eca4b9adab7a2cccd76bf82992ba40b84ef68d51b97f679366493d75bee9b7f
+    - https://dl.winehq.org/wine/source/3.x/wine-3.5.tar.xz : f42206143b7caf5527dbcd54c21f9b0a22338d8841d7fa08aa6c5f0b9dd72143
+    - https://github.com/wine-staging/wine-staging/archive/v3.5.tar.gz : 1f26c00b91c9f554b9adbeb9362bfcd9c7df13dd331aac07ca8dd2dce550cbbf
+    - https://github.com/sarnex/wine-d3d9-patches/archive/wine-d3d9-3.5.tar.gz : f11c25d67230a6cc4c058180e185201641ccbfd3701f1bae1bcd41c23e5be0a1
 license    : LGPL-2.1
 component  : virt
 summary    : Wine compatibility layer for Windows emulation.
