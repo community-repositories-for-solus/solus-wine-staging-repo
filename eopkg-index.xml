@@ -24,7 +24,7 @@
             <Dependency releaseFrom="9">libxext-32bit</Dependency>
             <Dependency releaseFrom="16">libxcb-32bit</Dependency>
             <Dependency releaseFrom="5">openldap-32bit</Dependency>
-            <Dependency release="1004">wine</Dependency>
+            <Dependency release="1005">wine</Dependency>
             <Dependency>freetype2-32bit</Dependency>
             <Dependency>harfbuzz-32bit</Dependency>
             <Dependency>libcap2-32bit</Dependency>
@@ -37,9 +37,9 @@
             <Dependency>ncurses-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1004">
-                <Date>2018-04-06</Date>
-                <Version>3.5</Version>
+            <Update release="1005">
+                <Date>2018-04-17</Date>
+                <Version>3.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Thanos Apostolou</Name>
                 <Email>thanosapostolou@outlook.com</Email>
@@ -49,10 +49,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>196898204</InstalledSize>
-        <PackageSize>24962359</PackageSize>
-        <PackageHash>eb2eb6dfec95f60a925a54ddd849bf31fe6915f9</PackageHash>
-        <PackageURI>wine-32bit-3.5-1004-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>196966153</InstalledSize>
+        <PackageSize>25179700</PackageSize>
+        <PackageHash>ec8cf51df64ad4c1206c8e62b3eb31dc37e78752</PackageHash>
+        <PackageURI>wine-32bit-3.6-1005-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wine</Name>
@@ -69,12 +69,12 @@
         <PartOf>programming.devel</PartOf>
         <License>LGPL-2.1</License>
         <RuntimeDependencies>
-            <Dependency release="1004">wine</Dependency>
+            <Dependency release="1005">wine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1004">
-                <Date>2018-04-06</Date>
-                <Version>3.5</Version>
+            <Update release="1005">
+                <Date>2018-04-17</Date>
+                <Version>3.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Thanos Apostolou</Name>
                 <Email>thanosapostolou@outlook.com</Email>
@@ -84,10 +84,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>30728813</InstalledSize>
-        <PackageSize>3168507</PackageSize>
-        <PackageHash>b3b1c6cecbd49fbd50c0b11c432548d970071809</PackageHash>
-        <PackageURI>wine-devel-3.5-1004-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>30732320</InstalledSize>
+        <PackageSize>3169097</PackageSize>
+        <PackageHash>4c6d6af8590e70f101aa8d8df61f7e01109c5edf</PackageHash>
+        <PackageURI>wine-devel-3.6-1005-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wine</Name>
@@ -104,13 +104,13 @@
         <PartOf>programming.devel</PartOf>
         <License>LGPL-2.1</License>
         <RuntimeDependencies>
-            <Dependency release="1004">wine-32bit</Dependency>
-            <Dependency release="1004">wine-devel</Dependency>
+            <Dependency release="1005">wine-32bit</Dependency>
+            <Dependency release="1005">wine-devel</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1004">
-                <Date>2018-04-06</Date>
-                <Version>3.5</Version>
+            <Update release="1005">
+                <Date>2018-04-17</Date>
+                <Version>3.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Thanos Apostolou</Name>
                 <Email>thanosapostolou@outlook.com</Email>
@@ -122,8 +122,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>12</InstalledSize>
         <PackageSize>1447</PackageSize>
-        <PackageHash>b495196fde18c0327806bfd97c5d832e57e19030</PackageHash>
-        <PackageURI>wine-32bit-devel-3.5-1004-1-x86_64.eopkg</PackageURI>
+        <PackageHash>a8b7f2ed3e6bd88db6c8e33f546595e51be6789a</PackageHash>
+        <PackageURI>wine-32bit-devel-3.6-1005-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wine</Name>
@@ -144,7 +144,7 @@
             <Dependency releaseFrom="8">libgphoto2</Dependency>
             <Dependency releaseFrom="18">libxml2</Dependency>
             <Dependency releaseFrom="5">openldap</Dependency>
-            <Dependency releaseFrom="39">libgcc</Dependency>
+            <Dependency releaseFrom="40">libgcc</Dependency>
             <Dependency releaseFrom="16">libxcb</Dependency>
             <Dependency releaseFrom="6">openal-soft</Dependency>
             <Dependency releaseFrom="3">libglvnd</Dependency>
@@ -160,9 +160,9 @@
             <Dependency releaseFrom="9">libxext</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1004">
-                <Date>2018-04-06</Date>
-                <Version>3.5</Version>
+            <Update release="1005">
+                <Date>2018-04-17</Date>
+                <Version>3.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Thanos Apostolou</Name>
                 <Email>thanosapostolou@outlook.com</Email>
@@ -172,10 +172,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>217625270</InstalledSize>
-        <PackageSize>28902859</PackageSize>
-        <PackageHash>912094dfe9a92f7a1d661f16346180c5375fa408</PackageHash>
-        <PackageURI>wine-3.5-1004-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>217685614</InstalledSize>
+        <PackageSize>29070715</PackageSize>
+        <PackageHash>6edc4e4c2837c04f658415df84de7d29bc5b2598</PackageHash>
+        <PackageURI>wine-3.6-1005-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wine</Name>

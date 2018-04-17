@@ -1129,6 +1129,7 @@
             <Path fileType="library">/usr/lib64/wine/fakedlls/softpub.dll</Path>
             <Path fileType="library">/usr/lib64/wine/fakedlls/spoolss.dll</Path>
             <Path fileType="library">/usr/lib64/wine/fakedlls/spoolsv.exe</Path>
+            <Path fileType="library">/usr/lib64/wine/fakedlls/srclient.dll</Path>
             <Path fileType="library">/usr/lib64/wine/fakedlls/sspicli.dll</Path>
             <Path fileType="library">/usr/lib64/wine/fakedlls/start.exe</Path>
             <Path fileType="library">/usr/lib64/wine/fakedlls/stdole2.tlb</Path>
@@ -1744,6 +1745,7 @@
             <Path fileType="library">/usr/lib64/wine/softpub.dll.so</Path>
             <Path fileType="library">/usr/lib64/wine/spoolss.dll.so</Path>
             <Path fileType="library">/usr/lib64/wine/spoolsv.exe.so</Path>
+            <Path fileType="library">/usr/lib64/wine/srclient.dll.so</Path>
             <Path fileType="library">/usr/lib64/wine/sspicli.dll.so</Path>
             <Path fileType="library">/usr/lib64/wine/start.exe.so</Path>
             <Path fileType="library">/usr/lib64/wine/stdole2.tlb.so</Path>
@@ -1914,7 +1916,7 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1004">wine</Dependency>
+            <Dependency release="1005">wine</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/wine</Path>
@@ -1929,8 +1931,8 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1004">wine-32bit</Dependency>
-            <Dependency release="1004">wine-devel</Dependency>
+            <Dependency release="1005">wine-32bit</Dependency>
+            <Dependency release="1005">wine-devel</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/lib*.so</Path>
@@ -1943,7 +1945,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1004">wine</Dependency>
+            <Dependency release="1005">wine</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -1951,9 +1953,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="1004">
-            <Date>2018-04-06</Date>
-            <Version>3.5</Version>
+        <Update release="1005">
+            <Date>2018-04-17</Date>
+            <Version>3.6</Version>
             <Comment>Packaging update</Comment>
             <Name>Thanos Apostolou</Name>
             <Email>thanosapostolou@outlook.com</Email>
