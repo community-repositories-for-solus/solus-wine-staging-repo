@@ -1,3 +1,5 @@
+# DISCONTINUED
+
 # solus-wine-staging-repository
 Repository for solus which includes wine package built with staging patches.
 
@@ -9,7 +11,7 @@ sudo eopkg ar SolusWineStaging http://raw.github.com/community-repositories-for-
 Then put the Solus official repository below this repository by removing it and adding it agaain:
 ```
 sudo eopkg rr Solus
-sudo eopkg ar Solus https://packages.solus-project.com/shannon/eopkg-index.xml.xz
+sudo eopkg ar Solus https://mirrors.rit.edu/solus/packages/shannon/eopkg-index.xml.xz
 ```
 Then run `eopkg lr` to make sure that the repositories are in the correct order (SolusWineStaging must have higher position). Finally run `sudo eopkg ur -f` in order to refresh th repositories and `sudo eopkg up` in order to update wine.
 
